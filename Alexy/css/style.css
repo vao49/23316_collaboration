@@ -1,0 +1,12 @@
+main {
+    max-width: 1250px;
+    margin:auto;
+    width: 70%;
+}
+
+h1 {
+    margin: 50px;
+    display: flex;
+    justify-content: center
+}
+
