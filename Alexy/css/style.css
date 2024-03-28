@@ -2,11 +2,29 @@ main {
     max-width: 1250px;
     margin:auto;
     width: 70%;
+    background-color: #212429;
+    border: antiquewhite solid 2px;
+    margin-top: 40px;
+    color: antiquewhite;
 }
 
 h1 {
     margin: 50px;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    text-transform: uppercase;
 }
 
+body {
+    background: url(/23316_collaboration/Alexy/image/geeks-2894621_1280.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
