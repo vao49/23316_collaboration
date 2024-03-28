@@ -13,7 +13,7 @@
   <style>
     element {
       width: 100%;
-      height: 100%;
+      height: 100px;
       object-fit: cover;
     }
 
@@ -67,7 +67,18 @@
     <footer id="id-footer"></footer>
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="../Accueil/js/index.js"></script>
+
+    <script>
+
+      // Programme PRINCIPAL
+      window.addEventListener('load', (event) => {
+        loadHTML("header-id", "../HEADER_FOOTER/HEADER.html");
+        loadHTML("footer-id", "../HEADER_FOOTER/FOOTER.html");
+        event.preventDefault();
+  
+      });
+    </script>
 
   </body>
 </html>
