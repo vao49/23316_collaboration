@@ -17,8 +17,6 @@ function loadHTML(idZone, urlFichier) {
       }
     })
     .catch(function (error) {
-      console.log("La requete GET HTML a échoué : ", error);
+      console.log("La requete GET HTML a échoué : " + error);
     });
 }
-
-export { loadHTML };
