@@ -1,6 +1,6 @@
 "use strict";
 
-import { loadHTML } from "./ajax_Html.js";
+import { loadHTML } from "../../js/ajax_Html.js";
 
 // Programme PRINCIPAL
 window.addEventListener("load", () => {
