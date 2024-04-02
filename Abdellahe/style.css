@@ -1,0 +1,13 @@
+body {
+    background-image: url(img/fond.jpg);
+    background-size: cover;
+}
+
+.card {
+    background-color: burlywood !important;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+}
